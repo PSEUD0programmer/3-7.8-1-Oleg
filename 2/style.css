@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0e6ff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #6a5acd;
+    /* темно-сиреневый */
+}
+
+#greeting {
+    text-align: center;
+}
+
+#greetingMessage {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+    /* темно-серый */
+}
+
+#nameInput {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #9370db;
+    /* средне-сиреневый */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8a2be2;
+    /* фиолетовый */
+}
+
+#features {
+    margin-top: 20px;
+}
+
+#features h2,
+#options h2 {
+    color: #6a5acd;
+    /* темно-сиреневый */
+}
+
+#featureList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#featureList li {
+    margin-bottom: 5px;
+}
